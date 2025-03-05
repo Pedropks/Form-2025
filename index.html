@@ -21,7 +21,7 @@
       <main>
         <div class="main-container">
           <div class="back">
-            <img src="assets/icon/arrow-left-02.svg" alt="" />
+            <img src="icons/arrow-left-02.svg" alt="" />
             <span>Voltar</span>
           </div>
           <h1>Formulario de Matricula</h1>
@@ -107,7 +107,12 @@
               <legend>Endereço residencial</legend>
               <div class="input-wrapper">
                 <label for="cep"></label>CEP
-                <input type="text" id="cep" name="cep" />
+                <input
+                  type="text"
+                  id="cep"
+                  name="cep"
+                  placeholder="00000-000"
+                />
               </div>
 
               <div class="flex">
@@ -155,7 +160,12 @@
               <legend>Informações do responsável</legend>
               <div class="input-wrapper">
                 <label for="gardian">Nome do Responsável</label>
-                <input type="text" name="gardian" id="gardian" /><small
+                <input
+                  type="text"
+                  name="gardian"
+                  id="gardian"
+                  placeholder="Nome Completo Do Responsável"
+                /><small
                   >Principal responsável legal e contato de emergência</small
                 >
               </div>
@@ -204,9 +214,7 @@
                     />
                     <label for="morning">Manhã</label>
                   </div>
-                </div>
 
-                <div class="radio-wrapper">
                   <div class="radio-inner">
                     <div class="radio-image"></div>
                     <input
@@ -215,8 +223,61 @@
                       value="evening"
                       id="evening"
                     />
-                    <img src="icons/sun-cloud-02.svg" alt="Icone de sol " />
+                    <img src="icons/sun-02.svg" alt="Icone de sol " />
                     <label for="evening">Tarde</label>
+                  </div>
+                </div>
+              </div>
+              <div class="input-wrapper">
+                <label
+                  >Em qual esporte você gostaria de inscrever seu filho?</label
+                >
+
+                <div class="radio-wrapper">
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="sport" id="football" />
+                    <img src="icons/football.svg" alt="Icone de Futebol" />
+                    <label for="football">Futebol</label>
+                  </div>
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="sport" id="basketball" />
+                    <img
+                      src="icons/basketball-02.svg"
+                      alt="Icone de Bola de Basquete"
+                    />
+                    <label for="basketball">Basquete</label>
+                  </div>
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="sport" id="Natação" />
+                    <img src="icons/swimming.svg" alt="Uma pessoa nadando" />
+                    <label for="Natação">Natação</label>
+                  </div>
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="sport" id="Yoga" />
+                    <img
+                      src="icons/yoga-02.svg"
+                      alt="Icone de Uma pessoa fazendo yoga"
+                    />
+                    <label for="Yoga">Yoga</label>
+                  </div>
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="sport" id="volley" />
+                    <img
+                      src="icons/volleyball.svg"
+                      alt="Icone de Bola de Volley"
+                    />
+                    <label for="volley">volley</label>
+                  </div>
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="sport" id="Box" />
+                    <img src="icons/boxing-glove-01.svg" alt="Icone de Luva" />
+                    <label for="Box">Box</label>
                   </div>
                 </div>
               </div>

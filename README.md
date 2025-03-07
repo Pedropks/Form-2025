@@ -36,7 +36,7 @@ Form é um  formulário desktop para uma escola de educação infantil.  institu
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](pedropks.github.io/Form-2025/). 
+Você pode visualizar o layout do projeto através [desse link](https://pedropks.github.io/Form-2025/). 
 
 ## 📝 Licença
 

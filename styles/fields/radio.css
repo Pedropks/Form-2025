@@ -27,7 +27,7 @@ label + .radio-wrapper {
   }
 
   .radio-image {
-    background-image: url(icons/radio-1.svg);
+    background-image: url(../icons/radio-1.svg);
     width: 1.5rem;
     height: 1.5rem;
     position: absolute;
@@ -39,7 +39,7 @@ label + .radio-wrapper {
   &:focus-within {
     border: 1px solid var(--stroke-highlight);
     & .radio-image {
-      background-image: url(./icons/radio-2.svg);
+      background-image: url(../icons/radio-2.svg);
     }
   }
   &:has(:checked) {
